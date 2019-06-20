@@ -11,7 +11,9 @@
     align-items: center; 
 }
 
-.time-select, .sound-picker {
+.time-select, 
+.sound-picker,
+.player-container {
     height: 80%;
     flex: 1;
 }
@@ -22,4 +24,8 @@
 
 .sound-picker {
     background: rgb(85, 34, 139);
+}
+
+.player-container {
+    background: rgba(65, 105, 192, 0.918);
 }
