@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.time-select, .sound-picker {
+    height: 80%;
+    flex: 1;
+}
+
+.time-select {
+    background: rgba(196, 14, 241, 0.918);
+} 
+
+.sound-picker {
+    background: rgb(85, 34, 139);
+}
